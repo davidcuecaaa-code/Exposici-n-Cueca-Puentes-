@@ -7,6 +7,6 @@ public class Contador extends Empleado {
 
     
     public Contador(String nombre, double salario) {
-        super(nombre, salario);
+       
     }
 }
