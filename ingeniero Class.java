@@ -1,10 +1,12 @@
 package epec;
 
-
-public class Ingeniero extends Empleado {
+public class ingeniero extends Empleado {
     
-    public Ingeniero() {
-        public Ingeniero(String nombre, double salario) {
-       
+    public ingeniero() {
+        super();
+    }
+
+    public ingeniero(String nombre, double salario) {
+        super(nombre, salario);
     }
 }
